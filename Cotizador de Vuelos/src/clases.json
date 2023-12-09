@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "nombre": "Economica",
+      "costo": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Premium",
+      "costo": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Bussines",
+      "costo": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Primera",
+      "costo": 4
+    }
+]

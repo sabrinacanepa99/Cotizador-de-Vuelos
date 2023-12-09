@@ -1,0 +1,99 @@
+.mainContainer {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1.5rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.219);
+    border-radius: 1.1rem;
+}
+
+.header {
+    width: 100%;
+}
+.div_header {
+    display: flex;
+    justify-content: center;
+    background-color: #288da7;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.div_header h1 {   
+    color: #fff;
+    font-size: 2rem;
+}
+.div_header img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.contenedor_lista_historial {
+    width: 100%;
+    background-color: #fff;
+}
+.contenedor_lista_historial ul {
+    width: 100%;
+    height: 400px;
+    max-height: 400px;   
+    list-style: none;
+    overflow-x: none;
+    overflow-y: auto;
+}
+.contenedor_lista_historial ul li {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+.contenedor_lista_historial ul li:first-child {
+    position: sticky;
+    top: -0.0001rem;
+    background-color: #fff;
+}
+.contenedor_lista_historial ul li:last-child {
+    border: none;
+}
+.contenedor_lista_historial p {
+    display: inline;
+    text-align: center;
+    margin: 0.7rem 0.42rem;
+}
+
+.fecha {
+    width: 80px;
+}
+.vuelo {
+    width: 80px;
+}
+.clase {
+    width: 80px;
+}
+.boletos {
+    width: 55px;
+}
+.cotizacion {
+    width: 80px;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    background-color: #288da7;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.footer p {
+    margin-top: 1.3rem;
+}
+.footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer p a:hover {
+    color: #91c8f5;
+    text-decoration: underline;
+}

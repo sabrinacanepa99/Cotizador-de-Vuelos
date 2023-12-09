@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "fecha": "06/12/2023",
+        "pais_origen": "Argentina",
+        "pais_destino": "Grecia",
+        "clase": "Economica",
+        "boletos": 1,
+        "costo_total": 150.00 
+    },
+    {
+        "id": 2,
+        "fecha": "05/12/2023",
+        "pais_origen": "Dinamarca",
+        "pais_destino": "Nueva Zelanda",
+        "clase": "Bussines",
+        "boletos": 2,
+        "costo_total": 2400.00 
+    }
+]
